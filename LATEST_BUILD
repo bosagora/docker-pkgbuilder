@@ -1,9 +1,9 @@
 # This file is here to keep track of the last build date
 # when no change is to be made to the Dockerfile.
-# A rebuild could also be triggered from Dockercloud hub,
+# A rebuild could also be triggered via a workflow
 # but it wouldn't leave a trace and might make tracing
 # issues harder.
 #
 # Used `date -u +"%Y-%m-%dT%H:%M:%SZ"` (--iso-8601 doesn't work on Mac).
 
-2021-07-12T05:15:00Z
+2021-08-04T07:10:00Z
