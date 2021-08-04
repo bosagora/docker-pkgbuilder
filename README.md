@@ -1,9 +1,6 @@
 # `pkgbuilder` docker image
 
-[This image on Docker Hub](https://hub.docker.com/r/bpfk/pkgbuilder)
-
-[![](https://images.microbadger.com/badges/image/bpfk/pkgbuilder.svg)](https://microbadger.com/images/bpfk/pkgbuilder)
-[![](https://images.microbadger.com/badges/version/bpfk/pkgbuilder.svg)](https://microbadger.com/images/bpfk/pkgbuilder)
+[This image on Docker Hub](https://hub.docker.com/r/bosagora/pkgbuilder)
 
 Since D support is not part of Alpine Linux,
 it is currently impossible to compile D code without going through some hoops.
