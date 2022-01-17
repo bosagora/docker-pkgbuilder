@@ -1,9 +1,9 @@
 # Base image to build Alpine packages
 # abuild refuses to run as root, so we need to create a user
 # and a trusted set of keys
-FROM alpine:edge
+FROM alpine:3.15
 
-RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
+#RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
 RUN apk --no-cache upgrade && apk --no-cache add alpine-sdk dmd dub dtools emacs gdmd ldc sudo wget zsh
 RUN adduser -G abuild -D effortman
 RUN wget -O /home/effortman/.zshrc https://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
